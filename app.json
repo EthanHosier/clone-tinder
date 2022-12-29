@@ -18,9 +18,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.ethanhosier.cloneTinder",
       "supportsTablet": true
     },
     "android": {
+      "package":"com.ethanhosier.cloneTinder",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e853bbd-7ef9-427c-b002-16f851c4c0cb"
+      }
     }
   }
 }
