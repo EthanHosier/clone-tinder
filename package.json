@@ -11,15 +11,25 @@
   "dependencies": {
     "@react-navigation/native": "^6.1.1",
     "@react-navigation/native-stack": "^6.9.7",
+    "@react-spring/native": "^9.5.5",
     "expo": "~47.0.9",
+    "expo-auth-session": "^3.8.0",
     "expo-dev-client": "^2.0.1",
+    "expo-random": "^13.0.0",
     "expo-status-bar": "~1.4.2",
+    "expo-web-browser": "^12.0.0",
+    "firebase": "^9.15.0",
+    "nativewind": "^2.0.11",
     "react": "18.1.0",
     "react-native": "0.70.5",
-    "react-native-dotenv": "^3.4.6"
+    "react-native-dotenv": "^3.4.6",
+    "react-tinder-card": "^1.6.2",
+    "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "concurrently": "^7.6.0",
+    "postcss": "^8.4.20"
   },
   "private": true
 }
